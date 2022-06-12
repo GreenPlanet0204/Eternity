@@ -758,6 +758,10 @@ li {
     width: 58px;
   }
 
+ .compound svg {
+  width: 18px;
+ }
+
   .compound .compound-text {
     font-size: 21px;
     line-height: 24px;
@@ -882,12 +886,6 @@ li {
   .step-list .dashline {
     transform: translate(30px, -25px) scale(2.5);
     height: 6px;
-  }
-
-  .compound .compound-text {
-    font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 25px;
   }
 
   .network-field {

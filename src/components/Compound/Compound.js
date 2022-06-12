@@ -9,12 +9,10 @@ const CompoundComponet = () => {
         <div className="field">
           <div className="flex">
             <div className="image">
-            <img src={PhoneImage} className="image-field" alt="phone" />
+              <img src={PhoneImage} className="image-field" alt="phone" />
             </div>
-            
-            
+
             <div className="title">Just Compound & Chill</div>
-            
           </div>
 
           <div className="row">
