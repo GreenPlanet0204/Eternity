@@ -303,7 +303,7 @@
 
 .dashline .circle {
   position: absolute;
-  border: 0.2px solid #B1B5C3;
+  border: 1px solid #B1B5C3;
   width: 3px;
   height: 3px;
   border-radius: 100%;
@@ -317,10 +317,6 @@
 .end {
   right: -6px;
   transform: translateY(-50%);
-}
-
-@media screen and (max-width: 1680px) {
-  
 }
 
 .referral {
@@ -482,11 +478,12 @@ li {
     width: 0;
     height: 4px;
     border-right: 0.2px dashed #B1B5C3;
-    transform: translate(110px, 0px) scale(4);
+    transform: translate(60px, -50px) scale(4);
   }
 
   .step-list .step {
     height: 100%;
+    margin: 50px 0;
   }
 
   .step .dashline .start {
@@ -506,8 +503,13 @@ li {
     display: flex;
   }
 
-  .step .step-title {
-    width: 25%;
+  .step-title {
+    margin: auto;
+    padding: 0 10px;
+  }
+
+  .step-image {
+    margin: auto 0;
   }
 
   .step .subtext {
@@ -632,6 +634,10 @@ li {
     padding: 100px 60px;
   }
 
+  br {
+    display: none;
+  }
+
   .title {
     font-size: 51px;
     line-height: 63px;
@@ -673,11 +679,14 @@ li {
 
   .step-image {
     width: 90px;
-    margin: 37.5px;
+  }
+
+  .step-list .step {
+    margin: 25px 0;
   }
 
   .step-list .dashline {
-    transform: translate(82.5px, 0) scale(2.5);
+    transform: translate(45px, -25px) scale(2.5);
   }
 
   .strategy .blue-btn {
@@ -686,10 +695,6 @@ li {
 
   .slider-image {
     padding-top: 30px;
-  }
-
-  .step-title {
-    margin-top: 37.5px;
   }
 
   .footer {
@@ -818,10 +823,6 @@ li {
     line-height: 14.5px;
   }
 
-  .step-title {
-    margin: 25px;
-  }
-
   .footer {
     font-size: 12px;
     line-height: 14.5px;
@@ -876,11 +877,11 @@ li {
 
   .step-image {
     width: 60px;
-    margin: 25px;
   }
 
   .step-list .dashline {
-    transform: translate(55px, -15px) scale(2.5);
+    transform: translate(30px, -25px) scale(2.5);
+    height: 6px;
   }
 
   .compound .compound-text {
@@ -947,5 +948,13 @@ li {
 
   .bottom-container .linklist {
     right: 10px;
+  }
+
+  .step {
+    position: relative;
+  }
+
+  .step .dashline {
+    position: absolute;
   }
 }
