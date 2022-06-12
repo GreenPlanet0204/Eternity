@@ -1,0 +1,67 @@
+.vision {
+  border-top: 3px solid #f4f4f4;
+  border-bottom: 3px solid #f4f4f4;
+}
+
+.col-6 {
+  float: left;
+  width: 50%;
+}
+
+.col-4 {
+  float: left ;
+  width: 33.33%;
+}
+
+.col-8 {
+  float: right;
+  width: 66.66%;
+}
+
+.button {
+  width: 57px;
+  height: 36px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  color: #fcfcfd;
+}
+
+.btn-purple {
+  background-color: #9757D7;
+}
+
+.btn-pink {
+  background-color: #EF466F;
+  margin-top: 50px;
+}
+
+.btn-green {
+  background-color: #46B36C;
+  margin-top: 50px;
+}
+
+li {
+  padding-top: 5px;
+  line-height: 30px;
+}
+
+
+@media screen and (max-width: 1170px) {
+  .vision .col-6 {
+    width: 100%;
+  }
+
+  .vision .col-4 {
+    width: 100%;
+  }
+
+  .vision .col-8 {
+    width: 100%;
+  }
+}
