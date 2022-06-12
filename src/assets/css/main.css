@@ -6,6 +6,13 @@
 .container {
   padding: 200px 120px;
   max-width: 1920px;
+  margin: auto;
+}
+
+.header-container {
+  max-width: 2160px;
+  border-bottom: 3px solid #F4F4F4;
+  margin: auto;
 }
 
 .row {
@@ -216,11 +223,14 @@
 }
 
 .bottom-container {
+  max-width: 2160px;
   padding-left: 120px;
   padding-right: 120px;
   height: 105px;
   display: flex;
   align-items: center;
+  margin: auto;
+  position: relative;
 }
 
 .bottom-container .text {
@@ -248,7 +258,7 @@
   background-color: #FCFCFC;
   display: flex;
   align-items: center;
-  border-bottom: 3px solid #F4F4F4;
+  position: relative;
   font-weight: 600;
   padding: 0 100px;
 }
