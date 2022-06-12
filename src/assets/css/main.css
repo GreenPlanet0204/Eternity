@@ -463,10 +463,10 @@ li {
 }
 
 .metamask .dashline {
-  border-top: 0.5px dashed #B1B5C3;
-  width: calc( 25% - 40px);
+  border-top: 1px dashed #B1B5C3;
+  width: calc(40% - 60px);
   height: 0;
-  transform: translate(-50%, 33px) scale(4) ;
+  transform: translate(-50%, 33px) scale(2.5) ;
 }
 
 .passive-image {
