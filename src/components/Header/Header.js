@@ -1,7 +1,6 @@
 import React from "react"
 import { LogoIcon } from "../../icons"
 import Menu from "./Menu/Menu"
-import './Header.css'
 
 const Header = () => {
   return(

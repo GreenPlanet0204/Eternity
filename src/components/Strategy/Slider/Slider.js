@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./Slider.css";
 import Claim1Image from "../../../assets/img/claim1.png";
 import Claim2Image from "../../../assets/img/claim2.png";
 import Claim3Image from "../../../assets/img/claim3.png";

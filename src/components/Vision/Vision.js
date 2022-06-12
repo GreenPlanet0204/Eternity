@@ -1,5 +1,4 @@
 import React from 'react'
-import './Vision.css'
 import RocketImage from '../../assets/img/rocket.png'
 
 const VisionComponent = () => {

@@ -1,5 +1,4 @@
 import React from "react";
-import "./Adventure.css";
 
 const AdventureComponent = () => {
   return (

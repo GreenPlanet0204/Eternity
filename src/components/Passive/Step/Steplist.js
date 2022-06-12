@@ -1,5 +1,4 @@
 import React from "react";
-import './Steplist.css';
 import BridgeImage from "../../../assets/img/bridge.png";
 import DepositImage from "../../../assets/img/deposit.png";
 import CompoundImage from "../../../assets/img/compound.png";

@@ -1,7 +1,6 @@
 import React from "react";
 import RelaxComponent from "./Relax/Relax";
 import StepList from "./Step/Steplist";
-import './Passive.css'
 import WorkComponent from "./Work/Work";
 
 const PassiveComponent = () => {

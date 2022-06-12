@@ -1,5 +1,4 @@
 import React from "react";
-import './Referral.css';
 import ReferralIcon from '../../assets/img/circle-referral.png'
 import DepositIcon from '../../assets/img/circle-deposit.png'
 import CompoundIcon from '../../assets/img/circle-compound.png'

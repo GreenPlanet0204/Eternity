@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import { ArrowupIcon, CronosIcon, DiscordIcon, FacebookIcon, InstagramIcon, TelegramIcon, TwitterIcon } from "../../icons";
-import "./Footer.css";
 
 const Footer = () => {
   return (

@@ -1,6 +1,5 @@
 import React from "react";
 import { ArrowIcon } from "../../icons";
-import "./MetaMask.css";
 import AddImage from "../../assets/img/add.png";
 import TextImage from "../../assets/img/textfield.png";
 

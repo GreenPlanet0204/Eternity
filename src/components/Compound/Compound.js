@@ -1,5 +1,4 @@
 import React from "react";
-import "./Compound.css";
 import { CheckIcon } from "../../icons";
 import PhoneImage from "../../assets/img/phone.png";
 

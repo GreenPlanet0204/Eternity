@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "./Slider/Slider";
-import "./Strategy.css";
 
 const StrategyComponent = () => {
   return (
