@@ -11,7 +11,7 @@ const ReferralComponent = () => {
         <div className="title text-center">
           Referral Rewards and Taxes
         </div>
-        <div className="tax-list">
+        <div className="tax-list row">
           <div className="tax">
             <img src={ReferralIcon} alt="Referral Rewards"/>
             <div className="line" />

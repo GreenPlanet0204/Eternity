@@ -1,3 +1,8 @@
+* {
+  font-style: normal;
+  font-family: 'Inter';
+}
+
 .container {
   padding: 200px 120px;
   max-width: 1920px;
@@ -9,9 +14,22 @@
   width: 100%;
 }
 
+.col-4 {
+  float: left;
+  width: 33.33%;
+}
+
+.col-6 {
+  float: left;
+  width: 50%;
+}
+
+.col-8 {
+  float: right;
+  width: 66.66%;
+}
+
 .title {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 69px;
   line-height: 84px;
@@ -25,10 +43,8 @@
 }
 
 .text {
-  font-family: 'Inter';
   font-size: 23px;
   line-height: 28px;
-  font-style: normal;
   letter-spacing: 1.2px;
   color: #4D4D4F;
 }
@@ -46,6 +62,8 @@
   font-size: 23px;
   line-height: 28px;
 }
+
+
 
 .blue-btn {
   color: #FCFCFC;
@@ -65,6 +83,40 @@
   border: 3px solid #000000;
 }
 
+.btn-group {
+  margin-top: 50px;
+}
+
+.btn-group .btn {
+  margin-right: 20px;
+}
+
+.btn-purple {
+  background-color: #9757D7;
+}
+
+.btn-pink {
+  background-color: #EF466F;
+  margin-top: 50px;
+}
+
+.btn-green {
+  background-color: #46B36C;
+  margin-top: 50px;
+}
+
+.button {
+  width: 57px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  color: #fcfcfd;
+}
+
 .text-black {
   color: #000000;
 }
@@ -78,8 +130,6 @@
 }
 
 .subtitle {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
@@ -92,14 +142,11 @@
   font-size: 19px;
   line-height: 23px;
   color: #4D4D4F;
-  font-style: normal;
-  font-family: 'Inter';
   letter-spacing: 1.2px;
 }
 
 .step-list {
   padding: 100px 30px;
-  display: table;
 }
 
 .step-image {
@@ -112,13 +159,6 @@
   font-size: 19px;
   line-height: 23px;
   font-weight: 600;
-  font-style: normal;
-  font-family: 'Inter';
-}
-
-.step-list {
-  display: table;
-  clear: both;
 }
 
 .step {
@@ -141,6 +181,10 @@
 .footer a {
   color: #8A8C8E;
   text-decoration: none;
+}
+
+.footer .col-4 {
+  width: 33.33%;
 }
 
 .footer .col-4 div {
@@ -205,8 +249,6 @@
   display: flex;
   align-items: center;
   border-bottom: 3px solid #F4F4F4;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   padding: 0 100px;
 }
@@ -272,13 +314,7 @@
   padding-bottom: 10px;
 }
 
-.btn-group {
-  margin-top: 50px;
-}
 
-.btn-group .btn {
-  margin-right: 20px;
-}
 
 .image-field {
   width: 50%;
@@ -325,8 +361,6 @@
 
 .tax-list {
   margin-top: 50px;
-  display: table;
-  clear: both;
   margin-left: -25px;
   margin-right: -25px;
 }
@@ -393,48 +427,11 @@
   border-bottom: 3px solid #f4f4f4;
 }
 
-.col-6 {
-  float: left;
-  width: 50%;
-}
 
-.col-4 {
-  float: left ;
-  width: 33.33%;
-}
 
-.col-8 {
-  float: right;
-  width: 66.66%;
-}
 
-.button {
-  width: 57px;
-  height: 36px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  border: none;
-  border-radius: 10px;
-  margin-bottom: 40px;
-  color: #fcfcfd;
-}
 
-.btn-purple {
-  background-color: #9757D7;
-}
 
-.btn-pink {
-  background-color: #EF466F;
-  margin-top: 50px;
-}
-
-.btn-green {
-  background-color: #46B36C;
-  margin-top: 50px;
-}
 
 li {
   padding-top: 5px;
@@ -466,7 +463,11 @@ li {
   border-top: 1px dashed #B1B5C3;
   width: calc(40% - 60px);
   height: 0;
-  transform: translate(-50%, 33px) scale(2.5) ;
+  transform: translate(-50%, 33px) scale(2.5);
+}
+
+.metamask .col-6 {
+  width: 50%;
 }
 
 .passive-image {
@@ -540,7 +541,7 @@ li {
     padding-right: 60px;
   }
 
-  .passive .col-6 {
+  .col-6 {
     width: 100%;
   }
 
@@ -608,19 +609,11 @@ li {
     background-color: #B1B5C3;
   }
 
-  .vision .col-6 {
+  .col-4 {
     width: 100%;
   }
 
-  .vision .col-4 {
-    width: 100%;
-  }
-
-  .vision .col-8 {
-    width: 100%;
-  }
-
-  .compound .col-4 {
+  .col-8 {
     width: 100%;
   }
 
@@ -690,7 +683,7 @@ li {
   }
 
   .strategy .blue-btn {
-    margin-top: 100px!important;
+    margin-top: 100px !important;
   }
 
   .slider-image {
@@ -736,8 +729,7 @@ li {
   .logo-title {
     font-size: 28px;
     line-height: 34px;
-    padding-left: 15px;
-    padding-right: 42px;
+    padding: 0 42px 0 15px;
   }
 
   .tool {
@@ -758,9 +750,9 @@ li {
     width: 58px;
   }
 
- .compound svg {
-  width: 18px;
- }
+  .compound svg {
+    width: 18px;
+  }
 
   .compound .compound-text {
     font-size: 21px;
@@ -857,8 +849,7 @@ li {
   .logo-title {
     font-size: 19px;
     line-height: 23px;
-    padding-left: 10px;
-    padding-right: 28px;
+    padding: 0 28px 0 10px;
   }
 
   .tool {
@@ -946,13 +937,5 @@ li {
 
   .bottom-container .linklist {
     right: 10px;
-  }
-
-  .step {
-    position: relative;
-  }
-
-  .step .dashline {
-    position: absolute;
   }
 }

@@ -7,7 +7,7 @@ import ClaimImage from "../../../assets/img/claim.png";
 const StepList = () => {
 
   return (
-    <div className="step-list">
+    <div className="step-list row">
       <div className="step text-center" >
         <img src={BridgeImage} className="step-image" alt="Bridge" />
 
