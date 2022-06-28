@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import { ArrowupIcon, CronosIcon, DiscordIcon, FacebookIcon, InstagramIcon, TelegramIcon, TwitterIcon } from "../../icons";
 
@@ -9,27 +10,27 @@ const Footer = () => {
         <div className="col-4">
           <div className="link">
             <div>
-              <NavLink to="#">About</NavLink>
+              <Link className="subtext" to="about">About</Link>
             </div>
             <div>
-              <NavLink to="#">Strategy</NavLink>
+              <Link className="subtext" to="strategy">Strategy</Link>
             </div>
           </div>
         </div>
         <div className="col-4">
           <div className="link">
             <div>
-              <NavLink to="#">Rewards & Taxes</NavLink>
+              <Link className="subtext" to="reward">Rewards & Taxes</Link>
             </div>
             <div>
-              <NavLink to="#">RoadMap</NavLink>
+              <Link className="subtext" to="roadmap">RoadMap</Link>
             </div>
           </div>
         </div>
         <div className="col-4">
           <div className="link">
-            <div className="subtitle text-black">CONTACT</div>
-            <div>EmailHere@email.com</div>
+            <div className="subtext text-black">CONTACT</div>
+            <div className="subtext">EmailHere@email.com</div>
           </div>
         </div>
       </div>
@@ -38,7 +39,7 @@ const Footer = () => {
     </div>
 
     <div className="bottom-container">
-        <div className="text">Copyright © 2022 Eternity Earn, All rights Reserved</div>
+        <div className="text subtext">Copyright © 2022 Eternity Earn, All rights Reserved</div>
         <div className="linklist">
           <NavLink to="#"><CronosIcon/></NavLink>
           <NavLink to="#"><TelegramIcon/></NavLink>

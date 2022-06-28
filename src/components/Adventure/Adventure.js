@@ -10,7 +10,7 @@ const AdventureComponent = () => {
           <br />
           Take a test drive for less than a cup of coffee.
         </div>
-        <div className="text">
+        <div className="subtext">
           There is no minimum investment so deposit just a few $CRO and learn
           why <br /> Eternity Earn is different!
         </div>

@@ -6,7 +6,7 @@ import ClaimIcon from '../../assets/img/circle-claim.png'
 
 const ReferralComponent = () => {
   return (
-    <div className="referral">
+    <div className="referral" id="reward">
       <div className="container">
         <div className="title text-center">
           Referral Rewards and Taxes

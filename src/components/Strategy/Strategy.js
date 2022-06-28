@@ -3,7 +3,7 @@ import Slider from "./Slider/Slider";
 
 const StrategyComponent = () => {
   return (
-    <div className="strategy">
+    <div className="strategy" id="strategy">
       <div className="container text-center">
         <div className="title">Strategy</div>
         <div className="text text-area">

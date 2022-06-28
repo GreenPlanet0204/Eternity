@@ -5,7 +5,7 @@ import WorkComponent from "./Work/Work";
 
 const PassiveComponent = () => {
   return (
-    <div className="passive">
+    <div className="passive" id="about">
       <div className="container">
         <RelaxComponent />
         <WorkComponent />

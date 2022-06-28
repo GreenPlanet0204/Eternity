@@ -1,14 +1,15 @@
 import './App.css';
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Layout from './containers/Layout';
+import Home from './containers/Home';
+
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/" component={Layout} />
+          <Route path="/" component={Home} />
         </Switch>
       </Router>
     </div>

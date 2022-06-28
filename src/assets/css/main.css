@@ -26,6 +26,10 @@
   width: 33.33%;
 }
 
+.rocket-field {
+  float: right!important;
+}
+
 .col-6 {
   float: left;
   width: 50%;
@@ -54,6 +58,7 @@
   line-height: 28px;
   letter-spacing: 1.2px;
   color: #4D4D4F;
+  line-height: 1.5;
 }
 
 .text-area {
@@ -67,7 +72,7 @@
   border-radius: 15px;
   padding: 16px 30px;
   font-size: 23px;
-  line-height: 28px;
+  line-height: 1.5;
 }
 
 
@@ -117,15 +122,19 @@
   height: 36px;
   font-weight: 700;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.5;
   border: none;
   border-radius: 10px;
   margin-bottom: 40px;
   color: #fcfcfd;
 }
 
+.link .subtext {
+  color: #8A8C8E;
+}
+
 .text-black {
-  color: #000000;
+  color: #000000!important;
 }
 
 .text-center {
@@ -139,7 +148,7 @@
 .subtitle {
   font-weight: 600;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.5;
 }
 
 .subtext {
@@ -147,7 +156,7 @@
   padding-right: 20px;
   padding-top: 30px;
   font-size: 19px;
-  line-height: 23px;
+  line-height: 1.5;
   color: #4D4D4F;
   letter-spacing: 1.2px;
 }
@@ -161,17 +170,55 @@
   height: fit-content;
 }
 
-.step-title {
-  margin-top: 50px;
-  font-size: 19px;
-  line-height: 23px;
-  font-weight: 600;
+.footer .subtext {
+  padding: 0;
 }
+
+.bottom-container .subtext {
+  padding: 0;
+}
+
+.phase .subtext {
+  width: 80%;
+}
+
+.step-title {
+  margin: auto;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+
 
 .step {
   float: left;
   width: 25%;
+  padding: 80px 0;
 }
+
+.greyfield {
+  position: relative;
+  background-color: #F4F5F6;
+  border-radius: 20px;
+  aspect-ratio: 1/1.15;
+}
+
+.greyfield .img-field {
+  position: absolute;
+  width: 135%;
+  height: 100%;
+  overflow-y: hidden;
+  right: 0;
+}
+
+.rocket-img {
+  position: absolute;
+  width: 100%;
+  right: 0;
+}
+
 
 .step .subtitle {
   margin-top: 50px;
@@ -179,8 +226,8 @@
 
 .footer {
   border: 3px solid #F4F4F4;
-  font-size: 23px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 1.5;
   font-weight: 600;
   color: #8A8C8E;
 }
@@ -235,7 +282,6 @@
 
 .bottom-container .text {
   font-size: 19px;
-  line-height: 23px;
   color: #8A8C8E;
 }
 
@@ -245,7 +291,7 @@
 }
 
 .bottom-container a:hover {
-  color: #000000;
+  color: #0069F6;
 }
 
 .bottom-container .linklist {
@@ -261,6 +307,11 @@
   position: relative;
   font-weight: 600;
   padding: 0 100px;
+}
+
+.logo svg {
+  width: 75px;
+  height: 53px;
 }
 
 .logo-title {
@@ -280,7 +331,7 @@
 .tool * {
   padding: 16px 30px;
   font-size: 23px;
-  line-height: 28px;
+  line-height: 1.5;
 }
 
 .whitepaper {
@@ -295,11 +346,12 @@
 
 .menu a {
   font-size: 23px;
-  line-height: 28px;
+  line-height: 1.5;
   color: #8A8C8E;
   padding-left: 30px;
   padding-right: 30px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .menu a:hover {
@@ -316,12 +368,13 @@
 
 .compound .compound-text {
   font-size: 27px;
-  line-height: 32px;
+  line-height: 1.5;
   margin-bottom: 50px;
 }
 
 .compound .subtitle div {
   padding-bottom: 10px;
+  line-height: 2;
 }
 
 
@@ -341,10 +394,10 @@
 }
 
 .step-list .dashline {
-  border-top: 0.5px dashed #B1B5C3;
-  width: calc(25% - 60px);
+  border-top: 1px dashed #B1B5C3;
+  width: calc(50% - 120px);
   height: 0;
-  transform: translate(-27.5px, 110px) scale(4);
+  transform: translate(-50%, 110px) scale(2);
 }
 
 .dashline .circle {
@@ -356,13 +409,17 @@
 }
 
 .start {
-  left: -6px;
+  left: -9px;
   transform: translateY(-50%);
 }
 
 .end {
-  right: -6px;
+  right: -9px;
   transform: translateY(-50%);
+}
+
+.step .subtext {
+  text-align: left;
 }
 
 .referral {
@@ -437,12 +494,6 @@
   border-bottom: 3px solid #f4f4f4;
 }
 
-
-
-
-
-
-
 li {
   padding-top: 5px;
   line-height: 30px;
@@ -471,9 +522,9 @@ li {
 
 .metamask .dashline {
   border-top: 1px dashed #B1B5C3;
-  width: calc(40% - 60px);
+  width: calc(50% - 100px);
   height: 0;
-  transform: translate(-50%, 33px) scale(2.5);
+  transform: translate(-50%, 33px) scale(2);
 }
 
 .metamask .col-6 {
@@ -486,37 +537,34 @@ li {
 
 @media screen and (max-width: 1680px) {
   .step-list .dashline {
+    position: absolute;
     width: 0;
-    height: 4px;
-    border-right: 0.2px dashed #B1B5C3;
-    transform: translate(60px, -50px) scale(4);
+    top: 0;
+    height: calc(50% - 120px);
+    border-right: 1px dashed #B1B5C3;
+    transform: translate(60px, -50%) scale(2);
   }
 
   .step-list .step {
     height: 100%;
-    margin: 50px 0;
+    position: relative;
   }
 
   .step .dashline .start {
     left: 0;
     transform: translate(-50%, 0);
-    top: -8px;
+    top: -7.5px;
   }
 
   .step .dashline .end {
-    right: 0;
-    bottom: -7px;
-    transform: translate(50%, 0);
+    left: 0;
+    transform: translate(-50%, 0);
+    bottom: -7.5px;
   }
 
   .step {
     width: 100%;
     display: flex;
-  }
-
-  .step-title {
-    margin: auto;
-    padding: 0 10px;
   }
 
   .step-image {
@@ -553,6 +601,10 @@ li {
 
   .col-6 {
     width: 100%;
+  }
+
+  .rocket-field {
+    width: 70%!important;
   }
 
   .passive .col-6:last-of-type {
@@ -627,9 +679,7 @@ li {
     width: 100%;
   }
 
-  .rocket-img {
-    width: 100%;
-  }
+ 
 }
 
 @media screen and (max-width: 900px) {
@@ -658,25 +708,22 @@ li {
 
   .text {
     font-size: 17px;
-    line-height: 21px;
     letter-spacing: 0.9px;
   }
 
   .btn {
     padding: 12px 22.5px;
     font-size: 17px;
-    line-height: 21px;
+    line-height: 1.5;
   }
 
   .subtitle {
     font-size: 18px;
-    line-height: 22px;
   }
 
   .subtext {
     padding: 22.5px 15px 0px 15px;
     font-size: 14px;
-    line-height: 17px;
     letter-spacing: 0.9px;
   }
 
@@ -692,10 +739,6 @@ li {
     margin: 25px 0;
   }
 
-  .step-list .dashline {
-    transform: translate(45px, -25px) scale(2.5);
-  }
-
   .strategy .blue-btn {
     margin-top: 100px !important;
   }
@@ -706,7 +749,6 @@ li {
 
   .footer {
     font-size: 17px;
-    line-height: 21px;
   }
 
   .footer .col-4 div {
@@ -724,7 +766,6 @@ li {
 
   .bottom-container .text {
     font-size: 14px;
-    line-height: 17px;
   }
 
   .bottom-container a {
@@ -742,7 +783,6 @@ li {
 
   .logo-title {
     font-size: 28px;
-    line-height: 34px;
     padding: 0 42px 0 15px;
   }
 
@@ -770,7 +810,6 @@ li {
 
   .compound .compound-text {
     font-size: 21px;
-    line-height: 24px;
     margin-bottom: 38px;
   }
 
@@ -783,7 +822,7 @@ li {
     width: 42px;
     height: 27px;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.5;
   }
 }
 
@@ -830,12 +869,10 @@ li {
 
   .step-list .subtext {
     font-size: 12px;
-    line-height: 14.5px;
   }
 
   .footer {
     font-size: 12px;
-    line-height: 14.5px;
   }
 
   .footer .col-4 div {
@@ -862,7 +899,6 @@ li {
 
   .logo-title {
     font-size: 19px;
-    line-height: 23px;
     padding: 0 28px 0 10px;
   }
 
@@ -873,7 +909,6 @@ li {
   .tool * {
     padding: 8px 15px;
     font-size: 12px;
-    line-height: 14px;
   }
 
   .whitepaper {
@@ -886,11 +921,6 @@ li {
 
   .step-image {
     width: 60px;
-  }
-
-  .step-list .dashline {
-    transform: translate(30px, -25px) scale(2.5);
-    height: 6px;
   }
 
   .network-field {
