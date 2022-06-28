@@ -13,24 +13,24 @@ const Footer = () => {
               <Link className="subtext" to="about">About</Link>
             </div>
             <div>
-              <Link className="subtext" to="strategy">Strategy</Link>
+              <Link className="text" to="strategy">Strategy</Link>
             </div>
           </div>
         </div>
         <div className="col-4">
           <div className="link">
             <div>
-              <Link className="subtext" to="reward">Rewards & Taxes</Link>
+              <Link className="text" to="reward">Rewards & Taxes</Link>
             </div>
             <div>
-              <Link className="subtext" to="roadmap">RoadMap</Link>
+              <Link className="text" to="roadmap">RoadMap</Link>
             </div>
           </div>
         </div>
         <div className="col-4">
           <div className="link">
-            <div className="subtext text-black">CONTACT</div>
-            <div className="subtext">EmailHere@email.com</div>
+            <div className="text text-black">CONTACT</div>
+            <div className="text">EmailHere@email.com</div>
           </div>
         </div>
       </div>
