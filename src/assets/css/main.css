@@ -5,14 +5,50 @@
 
 .container {
   padding: 200px 120px;
-  max-width: 1920px;
+  max-width: 2160px;
   margin: auto;
 }
 
+.passive {
+  background-color: #FCFCFC;
+}
+
+.referral {
+  background-color: #FCFCFC;
+}
+
+.vision {
+  background-color: #FCFCFC;
+}
+
+.footer {
+  background-color: #FCFCFC;
+  font-weight: 700;
+}
+
+.bottom-container {
+  background-color: #FCFCFC;
+}
+
+.metamask {
+  background-color: #FCFCFC;
+}
+
+.adventure {
+  background-color: #FCFCFC;
+}
+
 .header-container {
-  max-width: 2160px;
+  background-color: #FCFCFC ;
   border-bottom: 3px solid #F4F4F4;
-  margin: auto;
+}
+
+.link a {
+  cursor: pointer;
+}
+
+.link a:hover {
+  color: #000000;
 }
 
 .row {
@@ -157,7 +193,7 @@
   font-size: 14.5px;
   line-height: 1.5;
   color: #4D4D4F;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.9px;
 }
 
 .step-list {
@@ -298,6 +334,8 @@
 }
 
 .header {
+  max-width: 2160px;
+  margin: auto;
   height: 140px;
   background-color: #FCFCFC;
   display: flex;
@@ -515,11 +553,15 @@ li {
   padding-bottom: 5px;
 }
 
+.meta-image {
+  width: 120px;
+}
+
 .metamask .dashline {
   border-top: 1px dashed #B1B5C3;
   width: calc(50% - 100px);
   height: 0;
-  transform: translate(-50%, 33px) scale(2);
+  transform: translate(-50%, 60px) scale(2);
 }
 
 .metamask .col-6 {
@@ -531,6 +573,10 @@ li {
 }
 
 @media screen and (max-width: 1680px) {
+  .passive .container {
+    padding-top: 100px;
+  }
+
   .step-list .dashline {
     position: absolute;
     width: 0;
@@ -597,6 +643,10 @@ li {
 }
 
 @media screen and (max-width: 1170px) {
+  .passive .container {
+    padding-top: 50px;
+  }
+
   .container {
     padding-left: 60px;
     padding-right: 60px;
@@ -616,6 +666,7 @@ li {
 
   .passive .passive-image {
     width: 60%;
+    margin-top: 50px;
     margin-bottom: 100px;
   }
 
@@ -681,8 +732,6 @@ li {
   .col-8 {
     width: 100%;
   }
-
- 
 }
 
 @media screen and (max-width: 900px) {
@@ -727,15 +776,26 @@ li {
   .subtext {
     padding: 22.5px 15px 0px 15px;
     font-size: 14px;
-    letter-spacing: 0.9px;
   }
 
   .step-list {
     padding: 75px 22.5px;
   }
 
+  .step-list .dashline {
+    transform: translate(45px, -50%) scale(2);
+  }
+
   .step-image {
     width: 90px;
+  }
+
+  .metamask .meta-image {
+    width: 90px;
+  }
+
+  .step-title {
+    padding: 37.5px;
   }
 
   .step-list .step {
@@ -854,7 +914,7 @@ li {
   }
 
   .text {
-    letter-spacing: 0.6px;
+    letter-spacing: 0.9px;
   }
 
   .btn {
@@ -922,8 +982,20 @@ li {
     width: 39px;
   }
 
+  .step-list .dashline {
+    transform: translate(30px, -50%) scale(2);
+  }
+
   .step-image {
     width: 60px;
+  }
+
+  .metamask .meta-image {
+    width: 60px;
+  }
+
+  .step-title {
+    padding: 25px;
   }
 
   .network-field {

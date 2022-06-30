@@ -1,7 +1,5 @@
 import React from "react";
-import { ArrowIcon } from "../../icons";
-import AddImage from "../../assets/img/add.png";
-import TextImage from "../../assets/img/textfield.png";
+import { ArrowIcon, PlusIcon, TableIcon } from "../../icons";
 
 const MetaMaskComponent = () => {
   return (
@@ -16,10 +14,8 @@ const MetaMaskComponent = () => {
         </div>
         <div className="network-field">
           <div className="row text-center">
-          
             <div className="col-6">
-            
-              <img src={AddImage} alt="Add" />
+              <PlusIcon className="meta-image"/>
               <div className="step-title">Step 1</div>
               <div className="subtitle">Add Network</div>
               <div className="subtext text-left">
@@ -31,18 +27,18 @@ const MetaMaskComponent = () => {
             </div>
 
             <div className="col-6">
-            <div className="dashline">
-                <div className="circle start"/>
+              <div className="dashline">
+                <div className="circle start" />
                 <div className="circle end" />
               </div>
-              <img src={TextImage} alt="text"/>
+              <TableIcon className="meta-image"/>
               <div className="step-title">Step 2</div>
               <div className="subtitle">Fill in TextFields</div>
               <div className="subtext text-left">
-                Fill in the parameters for the 
+                Fill in the parameters for the
                 <span className="text-black"> Cronos Mainnet Network</span>
               </div>
-              <div className="subtext text-left" style={{marginTop: "20px"}}>
+              <div className="subtext text-left" style={{ marginTop: "20px" }}>
                 <div className="text-field">
                   <span className="text-black">Name: </span>
                   Cronos Chain

@@ -6,24 +6,25 @@ const Footer = () => {
   return (
     <>
     <div className="footer">
+      <div className="container">
       <div className="row">
         <div className="col-4">
           <div className="link">
             <div>
-              <Link className="text" to="about">About</Link>
+              <Link className="text" to="about" spy={true} smooth={true}>About</Link>
             </div>
             <div>
-              <Link className="text" to="strategy">Strategy</Link>
+              <Link className="text" to="strategy" spy={true} smooth={true}>Strategy</Link>
             </div>
           </div>
         </div>
         <div className="col-4">
           <div className="link">
             <div>
-              <Link className="text" to="reward">Rewards & Taxes</Link>
+              <Link className="text" to="reward" spy={true} smooth={true}>Rewards & Taxes</Link>
             </div>
             <div>
-              <Link className="text" to="roadmap">RoadMap</Link>
+              <Link className="text" to="roadmap" spy={true} smooth={true}>RoadMap</Link>
             </div>
           </div>
         </div>
@@ -49,6 +50,7 @@ const Footer = () => {
           <NavLink to="#"><FacebookIcon/></NavLink>
           <NavLink to="#"><InstagramIcon/></NavLink>
         </div>
+      </div>
       </div>
     </>
     

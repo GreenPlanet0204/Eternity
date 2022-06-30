@@ -8,6 +8,16 @@ import { ReactComponent as DiscordIcon } from './discord.svg'
 import { ReactComponent as InstagramIcon } from './instagram.svg'
 import { ReactComponent as ArrowupIcon } from './arrowup.svg'
 import { ReactComponent as CronosIcon } from './cronos.svg'
+import { ReactComponent as ReferralCircleIcon } from './referral_circle.svg'
+import { ReactComponent as DepositCircleIcon } from './deposit_circle.svg'
+import { ReactComponent as CompoundCircleIcon } from './compound_circle.svg'
+import { ReactComponent as ClaimCircleIcon } from './claim_circle.svg'
+import { ReactComponent as BridgeIcon } from './bridge.svg'
+import { ReactComponent as DepositIcon } from './deposit.svg'
+import { ReactComponent as CompoundIcon } from './compound.svg'
+import { ReactComponent as ClaimIcon } from './claim.svg'
+import { ReactComponent as PlusIcon } from './plus.svg'
+import { ReactComponent as TableIcon } from './table.svg'
 
 export {
   LogoIcon,
@@ -19,5 +29,15 @@ export {
   DiscordIcon,
   InstagramIcon,
   ArrowupIcon,
-  CronosIcon
+  CronosIcon,
+  ReferralCircleIcon,
+  DepositCircleIcon,
+  CompoundCircleIcon,
+  ClaimCircleIcon,
+  BridgeIcon,
+  DepositIcon,
+  CompoundIcon,
+  ClaimIcon,
+  PlusIcon,
+  TableIcon
 }

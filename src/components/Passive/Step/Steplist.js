@@ -1,16 +1,12 @@
 import React from "react";
-import BridgeImage from "../../../assets/img/bridge.png";
-import DepositImage from "../../../assets/img/deposit.png";
-import CompoundImage from "../../../assets/img/compound.png";
-import ClaimImage from "../../../assets/img/claim.png";
+import { BridgeIcon, ClaimIcon, CompoundIcon, DepositIcon } from "../../../icons";
 
 const StepList = () => {
 
   return (
     <div className="step-list row">
       <div className="step text-center" >
-        <img src={BridgeImage} className="step-image" alt="Bridge" />
-
+        <BridgeIcon className="step-image"/>
         <div className="step-title">
           Step 1<div className="subtitle">Bridge</div>
         </div>
@@ -26,7 +22,7 @@ const StepList = () => {
           <div className="start circle" />
           <div className="end circle" />
         </div>
-        <img src={DepositImage} className="step-image" alt="Deposit" />
+        <DepositIcon className="step-image" />
         <div className="step-title">
           Step 2<div className="subtitle">Deposit</div>
         </div>
@@ -43,13 +39,13 @@ const StepList = () => {
           <div className="start circle" />
           <div className="end circle" />
         </div>
-        <img src={CompoundImage} className="step-image" alt="Compound" />
+        <CompoundIcon className="step-image" />
         <div className="step-title">
           Step 3<div className="subtitle">Compound</div>
         </div>
 
         <div className="subtext">
-          To grow the amount of $SCRO invested in the contract and maximize your
+          To grow the amount of $CRO invested in the contract and maximize your
           daily ROI, you can compound (reinvest) your $CRO rewards earned. There
           is no limit to compounding but keep in mind the small gas fee paid for
           each transaction.
@@ -60,7 +56,7 @@ const StepList = () => {
           <div className="start circle" />
           <div className="end circle" />
         </div>
-        <img src={ClaimImage} className="step-image" alt="Claim" />
+        <ClaimIcon className="step-image" />
         <div className="step-title">
           Step 4<div className="subtitle">Claim</div>
         </div>
