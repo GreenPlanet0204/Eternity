@@ -5,7 +5,7 @@
 
 .container {
   padding: 200px 120px;
-  max-width: 2160px;
+  max-width: 1920px;
   margin: auto;
 }
 
@@ -308,7 +308,7 @@
 }
 
 .bottom-container {
-  max-width: 2160px;
+  max-width: 1920px;
   padding-left: 120px;
   padding-right: 120px;
   height: 105px;
@@ -337,7 +337,7 @@
 }
 
 .header {
-  max-width: 2160px;
+  max-width: 1920px;
   margin: auto;
   height: 140px;
   background-color: #FCFCFC;
