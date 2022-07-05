@@ -170,6 +170,7 @@
 
 .text-black {
   color: #000000!important;
+  font-weight: bold;
 }
 
 .text-center {
