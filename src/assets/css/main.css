@@ -23,7 +23,6 @@
 
 .footer {
   background-color: #FCFCFC;
-  font-weight: 700;
 }
 
 .bottom-container {
@@ -206,12 +205,17 @@
   height: fit-content;
 }
 
+.footer .link .text {
+  font-weight: bold;
+}
+
 .footer .subtext {
   padding: 0;
 }
 
 .bottom-container .subtext {
   padding: 0;
+  letter-spacing: normal;
 }
 
 .phase .subtext {
@@ -574,6 +578,17 @@ li {
 
 .passive-image {
   width: 100%;
+}
+
+@media screen and (min-width: 1920px) {
+  .compound .image-field {
+    padding: 150px;
+  }
+
+  .compound .container {
+    padding-top: 400px;
+    padding-bottom: 400px;
+  }
 }
 
 @media screen and (max-width: 1680px) {
