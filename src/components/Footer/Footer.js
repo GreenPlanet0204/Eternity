@@ -42,7 +42,7 @@ const Footer = () => {
     <div className="bottom-container">
         <div className="text subtext">Copyright © 2022 Eternity Earn, All rights Reserved</div>
         <div className="linklist">
-          <NavLink to="#"><CronosIcon/></NavLink>
+          <NavLink to="#"><CronosIcon className="cronos"/></NavLink>
           <NavLink to="#"><TelegramIcon/></NavLink>
           <NavLink to="#"><TwitterIcon/></NavLink>
           <NavLink to="#"><DiscordIcon/></NavLink>

@@ -39,7 +39,6 @@
 
 .header-container {
   background-color: #FCFCFC ;
-  border-bottom: 3px solid #F4F4F4;
 }
 
 .link a {
@@ -267,7 +266,6 @@
 }
 
 .footer {
-  border: 3px solid #F4F4F4;
   color: #8A8C8E;
 }
 
@@ -341,6 +339,10 @@
   right: 120px;
 }
 
+.cronos {
+  transform: translateY(2px);
+}
+
 .header {
   max-width: 1690px;
   margin: auto;
@@ -351,6 +353,7 @@
   position: relative;
   font-weight: 600;
   padding: 0 100px;
+  border-bottom: 3px solid #F4F4F4;
 }
 
 .logo svg {
@@ -402,7 +405,7 @@
   color: #000000;
 }
 
-.compound {
+.compound .container {
   background-color: #F4F5F6;
 }
 
@@ -421,7 +424,12 @@
   line-height: 2;
 }
 
-
+.footer .container {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-top: 3px solid #F4F4F4;
+  border-bottom: 3px solid #F4F4F4;
+}
 
 .image-field {
   width: 50%;
@@ -553,7 +561,7 @@ li {
   margin-top: 30px;
 }
 
-.strategy {
+.strategy .container {
   background-color: #F4F5F6;
 }
 
@@ -582,7 +590,7 @@ li {
 
 @media screen and (min-width: 1921px) {
   .container {
-    padding: 200px 0px;
+    padding: 200px 120px;
   }
 
   .compound .container {
