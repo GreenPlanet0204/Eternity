@@ -39,7 +39,9 @@ const Footer = () => {
 
     </div>
 
-    <div className="bottom-container">
+    
+      </div>
+      <div className="bottom-container">
         <div className="text subtext">Copyright © 2022 Eternity Earn, All rights Reserved</div>
         <div className="linklist">
           <NavLink to="#"><CronosIcon className="cronos"/></NavLink>
@@ -50,7 +52,6 @@ const Footer = () => {
           <NavLink to="#"><FacebookIcon/></NavLink>
           <NavLink to="#"><InstagramIcon/></NavLink>
         </div>
-      </div>
       </div>
     </>
     

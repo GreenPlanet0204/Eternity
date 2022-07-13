@@ -39,6 +39,7 @@
 
 .header-container {
   background-color: #FCFCFC ;
+  border-bottom: 3px solid #F4F4F4;
 }
 
 .link a {
@@ -353,7 +354,7 @@
   position: relative;
   font-weight: 600;
   padding: 0 100px;
-  border-bottom: 3px solid #F4F4F4;
+
 }
 
 .logo svg {
@@ -405,7 +406,7 @@
   color: #000000;
 }
 
-.compound .container {
+.compound {
   background-color: #F4F5F6;
 }
 
@@ -427,6 +428,9 @@
 .footer .container {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.footer {
   border-top: 3px solid #F4F4F4;
   border-bottom: 3px solid #F4F4F4;
 }
@@ -561,7 +565,7 @@ li {
   margin-top: 30px;
 }
 
-.strategy .container {
+.strategy {
   background-color: #F4F5F6;
 }
 
