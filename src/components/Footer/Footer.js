@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-4 border">
               <div className="link-container">
                 <div className="link">
                   <div>
@@ -59,12 +59,10 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-4">
-              <div className="link-container">
                 <div className="link">
                   <div className="text text-black">CONTACT</div>
-                  <div className="text">EmailHere@email.com</div>
+                  <div className="text email">EmailHere@email.com</div>
                 </div>
-              </div>
             </div>
           </div>
         </div>

@@ -109,8 +109,6 @@
   line-height: 1.5;
 }
 
-
-
 .blue-btn {
   color: #FCFCFC;
   background-color: #2A85FF;
@@ -242,6 +240,9 @@
 
 .footer .link {
   display: inline-block;
+}
+
+.footer .link-container .link {
   transform: translateX(-50%);
 }
 
@@ -292,7 +293,7 @@
   width: 33.33%;
 }
 
-.footer .col-4 div {
+.footer .link div {
   padding: 16px 0px;
 }
 
@@ -306,8 +307,19 @@
   transform: translateX(50%);
 }
 
+.footer .col-4.border {
+  border-right: 3px solid #F4F4F4;
+}
+
 .footer .col-4:last-of-type {
-  border-left: 3px solid #F4F4F4;
+  position: relative;
+}
+
+.footer .col-4:last-of-type .link {
+  position: absolute;
+  max-width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .bottom-container {
@@ -323,6 +335,10 @@
 
 .bottom-container .text {
   color: #8A8C8E;
+}
+
+.footer .email {
+  word-break: break-all;
 }
 
 .bottom-container a {
@@ -480,15 +496,15 @@
 
 .tax-list {
   margin-top: 50px;
-  margin-left: -25px;
-  margin-right: -25px;
+}
+
+.tax-items {
+  padding-left: 25px;
 }
 
 .tax {
   float: left;
   width: 25%;
-  padding-left: 25px;
-  padding-right: 25px;
   box-sizing: border-box;
   padding-bottom: 100px;
 }
@@ -570,6 +586,7 @@ li {
 
 .text-field {
   padding-bottom: 5px;
+  word-break: break-all;
 }
 
 .meta-image {
@@ -705,7 +722,7 @@ li {
     margin-bottom: 100px;
   }
 
-  .footer .col-4:last-of-type {
+  .footer .col-4.border {
     border: none;
   }
 
@@ -849,7 +866,7 @@ li {
     font-size: 17px;
   }
 
-  .footer .col-4 div {
+  .footer .link div {
     padding: 12px 0px;
   }
 
@@ -973,7 +990,7 @@ li {
     font-size: 12px;
   }
 
-  .footer .col-4 div {
+  .footer .link div {
     padding: 8px 0px;
   }
 

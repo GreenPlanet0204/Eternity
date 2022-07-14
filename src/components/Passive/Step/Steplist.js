@@ -4,18 +4,19 @@ import { BridgeIcon, ClaimIcon, CompoundIcon, DepositIcon } from "../../../icons
 const StepList = () => {
 
   return (
-    <div className="step-list row">
-      <div className="step text-center" >
-        <BridgeIcon className="step-image"/>
-        <div className="step-title">
-          Step 1<div className="subtitle">Bridge</div>
+    <div className="step-list">
+      <div className="row">
+        <div className="step text-center" >
+          <BridgeIcon className="step-image"/>
+          <div className="step-title">
+            Step 1<div className="subtitle">Bridge</div>
+          </div>
+          <div className="subtext">
+            Purchase $CRO from Crypto.com and send it to a Cronos enabled MetaMask
+            wallet. Or, use a cross-chain swap application to exchange other
+            crypto for $CRO. Cronos currently supports MetaMask and Trust Wallet.
+          </div>
         </div>
-        <div className="subtext">
-          Purchase $CRO from Crypto.com and send it to a Cronos enabled MetaMask
-          wallet. Or, use a cross-chain swap application to exchange other
-          crypto for $CRO. Cronos currently supports MetaMask and Trust Wallet.
-        </div>
-      </div>
 
       <div className="step text-center">
         <div className="dashline" >
@@ -67,6 +68,7 @@ const StepList = () => {
           minus a 5% fee. Claiming too often (more than once per week) will
           reduce your daily rewards.
         </div>
+      </div>
       </div>
     </div>
   );
