@@ -292,7 +292,7 @@
   width: 33.33%;
 }
 
-.footer .col-4 a {
+.footer .col-4 div {
   padding: 16px 0px;
 }
 
@@ -849,7 +849,7 @@ li {
     font-size: 17px;
   }
 
-  .footer .col-4 a {
+  .footer .col-4 div {
     padding: 12px 0px;
   }
 
@@ -973,7 +973,7 @@ li {
     font-size: 12px;
   }
 
-  .footer .col-4 a {
+  .footer .col-4 div {
     padding: 8px 0px;
   }
 
