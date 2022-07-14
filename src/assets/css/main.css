@@ -275,6 +275,10 @@
   color: #8A8C8E;
 }
 
+.footer .link a {
+  display: block;
+}
+
 .footer a {
   color: #8A8C8E;
   text-decoration: none;
@@ -288,7 +292,7 @@
   width: 33.33%;
 }
 
-.footer .col-4 div {
+.footer .col-4 a {
   padding: 16px 0px;
 }
 
@@ -845,7 +849,7 @@ li {
     font-size: 17px;
   }
 
-  .footer .col-4 div {
+  .footer .col-4 a {
     padding: 12px 0px;
   }
 
@@ -969,7 +973,7 @@ li {
     font-size: 12px;
   }
 
-  .footer .col-4 div {
+  .footer .col-4 a {
     padding: 8px 0px;
   }
 
